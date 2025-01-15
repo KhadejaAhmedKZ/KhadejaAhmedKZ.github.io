@@ -1,78 +1,63 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
- 
+
 body {
-  font-family: 'Arial', sans-serif;  
-  background-color: #A7C7E7;         
-  padding: 20px;                     
-  color: #000000;                       
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+    color: black;
 }
- 
+
 ul {
-  padding-left: 0;                  
-  margin-left: 20px;               
+    list-style-type: none;
+    margin-left: 20px;
 }
- 
+
 .container {
-  width: 80%;                       
-  margin: auto;                  
-  padding: 20px;                    
-  background-color: #fff;          
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8px;
 }
- 
+
 header {
-  display: flex;                   
-  align-items: center;              
-  height: 250px;                     
-  margin-bottom: 20px;              
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
- 
+
 header img {
-  width: 150px;                    
-  height: 150px;                    
-  margin-right: 20px;               
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
 }
- 
-header .profile-text {
-  width: 60%;                        
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
 }
- 
-header .profile-text h1 {
-  font-size: 2rem;                    
-  margin-bottom: 10px;               
+
+header p {
+    font-size: 1rem;
 }
- 
-header .profile-text p {
-  font-size: 1rem;                   
-}
- 
-header .profile-text img {
-  margin-top: 10px;                   
-  margin-right: 10px;               
-}
- 
+
 .content {
-  margin-top: 40px;                  
+    margin-top: 20px;
 }
- 
+
 .content h3 {
-  font-size: 1.5rem;                  
-  margin-bottom: 15px;               
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
- 
-.content ul {
-  margin-left: 20px;                 
-}
- 
+
 .content ul li {
-  font-size: 1rem;                   
-  margin-bottom: 10px;               
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
- 
-.content h4 {
-  font-size: 1.25rem;                 
-  margin-top: 20px;                 
-  margin-bottom: 10px}
