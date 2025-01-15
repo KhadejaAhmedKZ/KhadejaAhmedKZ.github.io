@@ -5,10 +5,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: lightgray;
-    padding: 20px;
-    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    padding: 30px;
+    color: #333;
 }
 
 ul {
@@ -17,47 +17,60 @@ ul {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 8px;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 15px;
 }
 
 header img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin-right: 20px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 header h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: black;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    color: #222;
 }
 
 header p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: #666;
 }
 
 .content {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .content h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 1.7rem;
+    margin-bottom: 12px;
+    color: #444;
 }
 
 .content ul li {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.content ul li::before {
+    content: "•";
+    color: #4caf50;
+    margin-right: 10px;
 }
