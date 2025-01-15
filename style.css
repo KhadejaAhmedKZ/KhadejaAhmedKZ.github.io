@@ -85,15 +85,6 @@ header p {
     position: relative;
 }
 
-.content ul li::before {
-    content: "→";
-    color: #4caf50;
-    font-size: 1.4rem;
-    position: absolute;
-    left: -20px;
-    top: 0;
-}
-
 .container .cta {
     margin-top: 30px;
     text-align: center;
